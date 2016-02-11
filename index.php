@@ -5,7 +5,7 @@
  
 // Smartyパス設定
 define('SMARTY_PATH', './');
-define('SMARTY_TEMPLATES_DIR', SMARTY_PATH . '');
+define('SMARTY_TEMPLATES_DIR', SMARTY_PATH . 'contents/');
 define('SMARTY_COMPIlE_DIR', SMARTY_PATH . 'template_c/');
 define('SMARTY_CACHE_DIR', SMARTY_PATH . 'cache/');
  
