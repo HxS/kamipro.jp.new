@@ -1,0 +1,44 @@
+<!doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title>株式会社神風プロダクション</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <meta property="og:site_name" content="株式会社　神風プロダクション">
+        <meta property="og:title" content="株式会社　神風プロダクション">
+        <meta property="og:image" content="http://www.kamipro.jp/ogp.png">
+        <meta property="og:type" content="website">
+        <link rel="shortcut icon" href="/favicon.ico">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="stylesheet" href="styles/vendor.css">
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+
+    <body>
+<div id="fb-root"></div>
+<script src="scripts/jquery-1.12.0.min.js"></script>
+<script>
+	jQuery.noConflict();
+	(function($){
+		$(function(){
+			$(".fb-page").attr("data-height",  $(window.parent.document).find("#NewsArea").height() - 10);
+			(function(d, s, id) {
+			  var js, fjs = d.getElementsByTagName(s)[0];
+			  if (d.getElementById(id)) return;
+			  js = d.createElement(s); js.id = id;
+			  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.3&appId=790402024414197";
+			  fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+		})
+	})(jQuery)
+</script>
+			<div class="fb-page" id="fb-page" data-href="https://www.facebook.com/kamiproduct" data-width="500" data-height="300" data-hide-cover="false" data-show-facepile="true" data-show-posts="true">
+				<div class="fb-xfbml-parse-ignore">
+					<blockquote cite="https://www.facebook.com/kamiproduct">
+						<a href="https://www.facebook.com/kamiproduct">株式会社 神風プロダクション</a>
+					</blockquote>
+				</div>
+			</div>
+    </body>
+</html>

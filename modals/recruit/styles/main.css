@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+* { box-sizing:border-box }
+:after { box-sizing:border-box }
+:before { box-sizing:border-box }
+
+body {
+	font-size: 14px;
+	font-family: 'ＭＳ Ｐゴシック';
+	color: #333;
+	margin: 0;
+}
+
+
+.contents {
+  padding: 15px;
+  line-height: 20px;
+  background-color: #faf5f0;
+}
+.tableLike__h {
+  padding: 12px 6px 0;
+  background-color: #3482b4;
+  color: #FFF;
+  border: 0;
+  font-size: 113%;
+  font-weight: 700;
+  text-align: center;
+}
+.tableLike__dl {
+  background-color: #3482b4;
+  padding: 6px;
+  margin-bottom: 20px;
+	margin-top: 0;
+}
+.tableLike__dl dt {
+  clear: left;
+  float: left;
+  padding: 8px;
+  width: 64px;
+  background-color: #3482b4;
+  color: #FFF;
+	font-weight: 700;
+	line-height: 1.42857;
+}
+.tableLike__dl dd {
+  margin: 6px 0 0 64px;
+  padding: 8px;
+  background-color: #faf5f0;
+	line-height: 1.42857;
+}
+h3 {
+  font-size: 113%;
+  border-bottom: solid 1px #296a97;
+  color: #333;
+  padding: 15px;
+  margin: 0;
+	font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+}
+img {
+  vertical-align: middle;
+}
+
+img {
+  border: 0;
+}
+p {
+  margin: 0 0 10px;
+}
